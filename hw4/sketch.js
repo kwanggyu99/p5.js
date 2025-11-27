@@ -1,8 +1,6 @@
 function setup() {
   createCanvas(600, 400);
   frameRate(10);
-  // saveGif는 웹사이트 테러 방지를 위해 주석 처리했습니다.
-  // saveGif('final_project.gif', 10, { units: 'seconds' });
 }
 
 function draw() {

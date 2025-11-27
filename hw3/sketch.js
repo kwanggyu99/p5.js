@@ -9,10 +9,7 @@ let skinColor, hairColor, shirtColor, lineColor, backgroundColor;
 function setup() {
   createCanvas(600, 400);
   
-  frameRate(30); // 부드러운 움직임을 위해 프레임 좀 높였습니다 (원래 5였음)
-  
-  // 웹사이트 테러 방지를 위해 자동 저장은 껐습니다.
-  // saveGif('myAnimation.gif', 50);
+  frameRate(30); 
   
   skinColor = color(255, 230, 210);
   hairColor = color(70, 70, 70);
